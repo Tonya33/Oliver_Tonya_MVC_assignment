@@ -1,0 +1,22 @@
+#mainHeader {
+	background: $darkBlue;
+
+
+	#logo {
+		display: block;
+		margin: 0;
+		width: 20%;
+		padding-top: 15px;
+
+
+		@media #{$desktopUp} {
+			margin: 0;
+			padding: 15px;
+		}
+
+		#logo {
+			width: 100%;
+		}
+	}
+
+}
